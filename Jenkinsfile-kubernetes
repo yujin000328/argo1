@@ -42,7 +42,7 @@ spec:
     stage('Checkout') { 
       steps { 
         container('maven') { 
-          git branch: 'main', url: 'https://github.com/yujin000328/argo.git' 
+          git branch: 'main', url: 'https://github.com/yujin000328/spring1.git' 
         } 
       } 
     } 
@@ -76,10 +76,10 @@ spec:
         githubUser = 'yujin000328' 
         githubEmail = 'dammoladbwls@gmail.com' 
         githubId = 'yujin000328' 
-        githubRepo = 'argo' 
+        githubRepo = 'argo1' 
         githubURL = "https://github.com/${githubId}/${githubRepo}.git" 
         dockerhubId = 'yujin0328' 
-        dockerhubRepo = 'hello-world' 
+        dockerhubRepo = 'hello' 
       } 
       
       steps { 
